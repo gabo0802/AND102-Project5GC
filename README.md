@@ -1,44 +1,43 @@
-# Android Project 5 - *Calorie Tracker*
+# Android Project 6 - *BitFit*
 
 Submitted by: **Gabriel Castejon**
 
-**Calorie Tracker** is a health metrics app that allows users to track how many calories they intake on each meal
+**BitFit** is a health metrics app that allows users to track the calorie count of the foods that they
+eat.
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): Food Calories
-- [X] **There is a "create entry" UI that prompts users to make their daily entry**
-- [X] **New entries are saved in a database and then updated in the RecyclerView**
-- [X] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [X] **Use at least 2 Fragments**
+- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
-- [ ] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Added toasts to let the user know whenever errors occur or when they add a new food
+- [X] Gave the app a unique icon
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='https://github.com/gabo0802/AND102-Project5GC/blob/master/project5.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/gabo0802/AND102-Project5GC/blob/master/project6.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGIF
 
+
 ## Notes
 
-I ran into issues creating the database the way that they did it in the lab, so I resorted to creating it the same way as the CoolFlashCardApp from last semester
+Working with the frame layouts was surprisingly simple, however, I did run into a few bugs that I had to fix.
+There was one that I could not fix and it was showcased in the GIF, I have to load in the stats frame twice for it
+to load the data properly.
 
 ## License
 
